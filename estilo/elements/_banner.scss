@@ -1,0 +1,75 @@
+.banner-bg{
+    background-color: #7320DD;
+    height: 438px;
+    display: flex;
+    margin: 0 auto;
+    border-top: 1px solid #E8E8E8;
+
+    .banner-container{
+        height: 100%;
+        width: 100%;
+        display: flex;
+        overflow: hidden;
+        
+        .banner-left-content{
+            width: 50%;
+            display: flex;
+            flex-direction: column;
+            align-items: left;
+            justify-content: center;
+            padding-left: 90px;
+
+            .fa.fa-circle{
+                color:white;
+                font-size: 1200px;
+                position: relative;
+                top: 20px;
+                left: -390px;
+                z-index: 0;
+                        }
+
+            h2{
+                color: #1A1A1A;
+                text-transform: uppercase;
+                line-height: 50px;
+                font-size: 66px;
+                position: absolute;
+                top: 200px;
+                font-weight: 400;
+
+                .tenis{
+                    font-size: 42px;
+                    color: #1A1A1A;
+                }
+
+                .desconto{
+                    color: #1EB9CC;
+                }
+
+                .off{
+                    font-size: 18px;
+                    color: #1EB9CC;
+                }
+            }
+
+            .primary-button{
+                border: none;
+                border-radius: 3px;
+                background-color: $primary-color;
+                color: white;
+                padding: 15px 78px;
+                font-family: inherit;
+                font-size: 20px;
+                position: absolute;
+                top: 356px;
+            }
+         }
+
+         .banner-right-content{
+            width: 50%;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+        } 
+    }
+}
