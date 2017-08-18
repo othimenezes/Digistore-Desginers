@@ -1,0 +1,286 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'Lato', sans-serif;
+}
+
+/**** REGRAS GERAIS PARA O SITE ****/
+
+body{
+
+}
+
+/**** 1. LOGO E NAVEGAÇÃO  ****/
+header{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 30px 0;
+}
+
+.header img{
+    margin-right: 5px;
+}
+.container-logo-header{
+    display: flex;
+    flex: 1;
+    align-items: center;
+    justify-content: flex-start;
+    padding-left: 50px;
+   
+}
+
+header h1{
+    font-size: 24px;
+    color: #00A1D8;
+    font-weight: 500;
+}
+
+.navigation{
+    margin: 0 20px;
+    align-items: right;
+    justify-content: flex-end;
+}
+
+nav a{
+    text-decoration: none;
+    color: #00A1D8;
+    text-transform: uppercase;
+    font-size: 14px;
+    padding: 5px;
+    margin: 0 25px;
+}
+
+nav a:hover{
+    border-bottom: 2px solid #00A1D8;
+}
+
+.carrinho-items{
+    background-color: #00A1D8;
+    color: white;
+    padding: 2px 5px;
+    font-size: 11px;
+    border-radius: 50%;
+}
+
+
+/**** 2. BANNER PRINCIPAL DO SITE  ****/
+.banner-bg{
+    background-color: #7320DD;
+    height: 438px;
+    display: flex;
+    margin: 0 auto;
+    border-top: 1px solid #E8E8E8;
+}
+
+.banner-container{
+    height: 100%;
+    width: 100%;
+    display: flex;
+    overflow: hidden;
+}
+
+/* Headings */
+
+.banner-left-content{
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+    align-items: left;
+    justify-content: center;
+    padding-left: 90px;
+ 
+}
+
+
+.fa.fa-circle{
+    color:white;
+    font-size: 1200px;
+    position: relative;
+    top: 20px;
+    left: -390px;
+    z-index: 0;
+
+}
+
+.banner-left-content h2{
+    color: #1A1A1A;
+    text-transform: uppercase;
+    line-height: 50px;
+    font-size: 66px;
+    position: absolute;
+    top: 200px;
+    font-weight: 400;
+}
+
+
+.tenis{
+    font-size: 42px;
+    color: #1A1A1A;
+}
+
+.desconto{
+    color: #1EB9CC;
+}
+
+.off{
+    font-size: 18px;
+    color: #1EB9CC;
+}
+
+.primary-button{
+    border: none;
+    border-radius: 3px;
+    background-color: #00A1D8;
+    color: white;
+    padding: 15px 78px;
+    font-family: inherit;
+    font-size: 20px;
+    position: absolute;
+    top: 356px;
+}
+
+
+.banner-right-content{
+    width: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+
+
+
+/**** 3. CATEGORIAS DE PRODUTOS  ****/
+
+.categoria-group{
+    background-color: #F0F2F5;
+}
+
+.title-group{
+    padding: 38px 0px 15px 45px;
+    font-size: 24px;
+    text-transform: uppercase;
+    font-weight: 500;
+}
+
+.categoria-row{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+
+}
+
+.categoria{
+    background-color: white;
+    width: 25%;
+    padding: 20px;
+    margin: 20px;
+    height: 310px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+
+}
+
+.categoria h2{
+    font-size: 24px;
+    color:#242424;
+}
+
+.circle-bg{
+    width:152px;
+    height: 152px;
+    border: 1px solid #00A1D8;
+    border-radius: 50%; 
+    display: flex;
+    align-items: center;
+    justify-content: center; 
+    margin-bottom:35px;
+}
+
+.ic-cat{
+    width:80px;
+    color: white;
+}
+
+/**** 4. NEWSLETTER  ****/
+.newsletter{
+    background-color: #F0F2F5;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding: 110px 0;
+    text-align: center;
+}
+
+.newsletter-text{
+    margin-bottom: 25px;
+    line-height: 30px;
+}
+
+form{
+    display: flex;
+    width: 50%;
+    align-items: center;
+    justify-content: center;
+    height: 50px;
+}
+
+input[type=email]{
+    border: 1px solid #D7D8DA;
+    font-size: 20px;
+    flex: 3;
+    border-radius: 3px;
+    margin-right: 15px;
+    padding-left: 15px;
+    height: 100%;
+}
+
+input[type=submit]{
+    border: none;
+    border-radius: 3px;
+    font-size: 19px;
+    background-color: #00A1D8;
+    color: white;
+    padding: 15px;
+    flex: 1;
+    height: 100%;
+}
+
+
+
+/**** 5. FOOTER  ****/
+footer{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    padding: 30px 0;
+
+}
+
+.container-logo-footer{
+    display: flex;
+    align-items: center;
+    justify-content:center;
+}
+
+.footer-logotype{
+    font-size: 24px;
+    color: #00A1D8;
+    font-weight: 500;
+}
+.container-logo p{
+    font-size: 24px;
+    color: #00A1D8;
+}
+
+.rights{
+    margin-top: 12px;
+    text-align: center;
+}
